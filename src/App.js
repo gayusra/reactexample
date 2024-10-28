@@ -11,6 +11,7 @@ import Footer from './components/Footer';
 import Events from './components/Events';
 import Todo from './components/Todo';
 import Useref2 from './components/Useref2';
+import Forms from './components/Forms';
 
 
 function App() {
@@ -25,7 +26,7 @@ function App() {
       {/*<StateDemo/>*/}
       {/* <EffectDemo/> */}
      {/* <Userefdemo/> */}
-     <Useref2/>
+    {/*  <Useref2/> */}
       {/*  <Jsxdemo/> */}
      {/*  <Header/>
       
@@ -33,6 +34,8 @@ function App() {
 
     {/*   <Events/> */}
     {/* <Content/> */}
+
+    <Forms/>
     
 
      
