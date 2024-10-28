@@ -13,6 +13,7 @@ function Userefdemo() {
      <input type='text' ref={inputRef} value={inputValue} onChange={(event) => setInputValue(event.target.value)}/>
      <button onClick={display}>show Input</button>
      {/* <p>my name is {inputValue}</p>  */}
+     
 
 
 
