@@ -1,23 +1,44 @@
 import logo from './logo.svg';
 import './App.css';
+import Propss from './components/Propss';
+import StateDemo from './components/StateDemo';
+import EffectDemo from './components/EffectDemo';
+import Userefdemo from './components/Userefdemo';
+import Jsxdemo from './components/Jsxdemo';
+import Header from './components/Header';
+import Content from './components/Content';
+import Footer from './components/Footer';
+import Events from './components/Events';
+import Todo from './components/Todo';
+import Useref2 from './components/Useref2';
+
 
 function App() {
+  const userData = {
+    name:"Aksra",
+    age:25,
+    phone:1234456789,
+    email:"example@gmail.com"
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/*<StateDemo/>*/}
+      {/* <EffectDemo/> */}
+     {/* <Userefdemo/> */}
+     <Useref2/>
+      {/*  <Jsxdemo/> */}
+     {/*  <Header/>
+      
+      <Footer/> */}
+
+    {/*   <Events/> */}
+    {/* <Content/> */}
+    
+
+     
+     {/*<Propss {...userData}/>
+      <Propss myname='gayathri'/>*/}
+      {/*<Propss propname={userData.name} propage={userData.age} propphone={userData.phone} propemail={userData.email}/>*/}
     </div>
   );
 }
